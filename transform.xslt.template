@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<stylesheet xmlns="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <output method="text"/>
+  <template match="ticket[./is-story/text() = 'false']">
+    <text>---
+{
+"number": </text><value-of select="number/text() + 10000"/><text>,
+"title": "</text><value-of select="summary/text()"/><text>",
+"body": "</text><call-template name="quotes"><with-param name="text" select="description/text()"/></call-template><text>",
+"created_at" : "</text><value-of select="concat(substring-before(created-on/text(),'+'),'Z')"/><text>",
+"updated_at" : "</text><value-of select="concat(substring-before(updated-at/text(),'+'),'Z')"/><text>",
+"user" : "</text><value-of select="reporter/login/text()"/><text>"
+"assignee" : "</text><value-of select="assigned-to/text()"/><text>"
+"milestone" : @milestone@,
+"labels" : ["imported"],
+"state" : "</text><call-template name="state"><with-param name="text" select="status-name/text()"/></call-template><text>"
+}</text>
+  </template>
+  <template match="ticket"/>
+  <template name="state">
+    <param name="text"/>
+    <choose>
+      <when test="$text = 'Fixed'"><text>closed</text></when>
+      <otherwise><text>open</text></otherwise>
+    </choose>
+  </template>
+  <template name="quotes">
+    <param name="text"/>
+    <variable name="t1">
+      <call-template name="quote">
+        <with-param name="text" select="$text"/>
+        <with-param name="char" select="'\'"/>
+        <with-param name="replace" select="'\\'"/>
+      </call-template>
+    </variable>
+    <variable name="t2">
+      <call-template name="quote">
+        <with-param name="text" select="$t1"/>
+        <with-param name="char" select="'&quot;'"/>
+        <with-param name="replace" select="'\&quot;'"/>
+      </call-template>
+    </variable>
+    <variable name="t3">
+      <call-template name="quote">
+        <with-param name="text" select="$t2"/>
+        <with-param name="char" select="'&#10;'"/>
+        <with-param name="replace" select="'\r\n'"/>
+      </call-template>
+    </variable>
+    <value-of select="$t3"/>
+  </template>
+  <template name="quote">
+    <param name="text"/>
+    <param name="char"/>
+    <param name="replace"/>
+    <param name="acc"/>
+    <choose>
+      <when test="$text">
+        <variable name="x" select="substring-before($text, $char)"/>
+        <variable name="y" select="substring-after($text, $char)"/>
+        <choose>
+          <when test="$y">
+            <call-template name="quote">
+              <with-param name="text" select="substring-after($text, $char)"/>
+              <with-param name="acc" select="concat($acc, $x, $replace)"/>
+              <with-param name="char" select="$char"/>
+              <with-param name="replace" select="$replace"/>
+            </call-template>
+          </when>
+          <otherwise>
+            <value-of select="concat($acc, $text)"/>
+          </otherwise>
+        </choose>
+      </when>
+      <otherwise><value-of select="$acc"/></otherwise>
+    </choose>
+  </template>
+</stylesheet>

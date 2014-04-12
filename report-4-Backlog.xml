@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2009-11-25T21:43:01+08:00</created-on>
+  <description>Would work nice with the: 
+actor ! HotSwap(PF)
+
+Can perhaps even wrap it in a more high-level manager for actors.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">670761</id>
+  <importance type="integer">17</importance>
+  <importance-float type="float">17.100000381469727</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">72</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Remote REPL (remote management of actors)</summary>
+  <updated-at type="datetime">2011-10-19T17:43:01+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2010-11-01T01:38:44+08:00</created-on>
+  <description></description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">2465795</id>
+  <importance type="integer">-25</importance>
+  <importance-float type="float">-25.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,cjmBrcMzCr37MLeJe5cbCb,c4CR7uJP8r35O6eJe5cbCb</notification-list>
+  <number type="integer">503</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>THOUGHTSTORMING: Add exponential back-off to restart fail of immortal actor</summary>
+  <updated-at type="datetime">2012-12-13T02:48:57+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-02-03T17:25:34+08:00</created-on>
+  <description>this should mostly cover the non-closure based services provided by FSM, which are StateTimeout and named timers (which are tricky to get right because of the involved cancellation races)
+
+The result will be a broken-out trait on which FSM should be based, so that we can create an abstract base class for Java users.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">3063743</id>
+  <importance type="integer">-53</importance>
+  <importance-float type="float">-53.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">644</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Java API to the FSM module</summary>
+  <updated-at type="datetime">2013-03-07T18:33:48+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Medium</estimate>
+  <total-estimate type="float">3.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-05-11T11:25:59+08:00</created-on>
+  <description>Create a reST :api: directive for linking to api from docs.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">3823166</id>
+  <importance type="integer">-31</importance>
+  <importance-float type="float">-31.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,alYZpMVA0r3RWMeJe5afGb</notification-list>
+  <number type="integer">849</number>
+  <priority type="integer">4</priority>
+  <reporter-id>da_DgGqT0r35syeJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>reST support for linking to API from docs</summary>
+  <updated-at type="datetime">2012-11-01T20:08:10+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>da_DgGqT0r35syeJe5aVNr</id><login>pvlugter</login><login_name warning="deprecated">pvlugter</login_name><name>Peter Vlugter</name><organization>Typesafe</organization><website>http://typesafe.com</website></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-06-22T17:29:08+08:00</created-on>
+  <description>Either: 
+
+1. Compare the akka.conf for all nodes that are joining the cluster to ensure that they are equal
+2. Feed each Akka node with a URI where to fetch the akka.conf, download it and then boot up with it
+
+Not the whole config, but the parts of it that makes sense. </description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">4225870</id>
+  <importance type="integer">-41</importance>
+  <importance-float type="float">-41.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr,alYZpMVA0r3RWMeJe5afGb,aUIV_Mzpir35KLeJe5cbCb</notification-list>
+  <number type="integer">962</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Ensure that the akka.conf is semantically equivalent on all nodes</summary>
+  <updated-at type="datetime">2013-05-30T09:30:14+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">cluster</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">cluster</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-08-15T17:34:20+08:00</created-on>
+  <description>Also: Rewrite the long-running tests so that they only take as long as they need - Use 'awaitCond' instead of arbitrary sleeps</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">4866742</id>
+  <importance type="integer">-50</importance>
+  <importance-float type="float">-50.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1112</number>
+  <priority type="integer">5</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Identify slow tests and improve their speed</summary>
+  <updated-at type="datetime">2012-12-05T23:35:54+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-08-23T15:51:36+08:00</created-on>
+  <description>https://github.com/SandroGrzicic/ScalaBuff</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">5240021</id>
+  <importance type="integer">1130</importance>
+  <importance-float type="float">1130.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1130</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Switch to ScalaBuff for Protobuf</summary>
+  <updated-at type="datetime">2011-12-17T00:05:16+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dIWZSyoser4ys0acwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-09-21T02:12:13+08:00</created-on>
+  <description>(taken from akka-modules)
+
+This is the suggested way of doing multi-part requests on Camel's Jetty Component:
+
+
+h1. *Multi-part Form support*
+ 
+From Camel 2.3.0, camel-jetty support to multipart form post out of box. The submitted form-data are mapped into the message header. Camel-jetty creates an attachment for each uploaded file. The file name is mapped to the name of the attachment. The content type is set as the content type of the attachment file name. You can find the example here.
+
+Note: getName() functions as shown below in versions 2.5 and higher. In earlier versions you receive the temporary file name for the attachment instead
+
+&lt;pre&gt;&lt;code&gt;// Set the jetty temp directory which store the file for multi part form
+// camel-jetty will clean up the file after it handled the request.
+// The option works rightly from Camel 2.4.0
+getContext().getProperties().put(&quot;CamelJettyTempDir&quot;, &quot;target&quot;);
+
+from(&quot;jetty://http://localhost:{{port}}/test&quot;).process(new Processor() {
+
+    public void process(Exchange exchange) throws Exception {
+        Message in = exchange.getIn();
+        assertEquals(&quot;Get a wrong attachement size&quot;, 1, in.getAttachments().size());
+        // The file name is attachment id
+        DataHandler data = in.getAttachment(&quot;NOTICE.txt&quot;);
+
+        assertNotNull(&quot;Should get the DataHandle NOTICE.txt&quot;, data);
+        // This assert is wrong, but the correct content-type (application/octet-stream)
+        // will not be returned until Jetty makes it available - currently the content-type
+        // returned is just the default for FileDataHandler (for the implentation being used)
+        //assertEquals(&quot;Get a wrong content type&quot;, &quot;text/plain&quot;, data.getContentType());
+        assertEquals(&quot;Got the wrong name&quot;, &quot;NOTICE.txt&quot;, data.getName());
+
+        assertTrue(&quot;We should get the data from the DataHandle&quot;, data.getDataSource()
+            .getInputStream().available() &gt; 0);
+
+        // The other form date can be get from the message header
+        exchange.getOut().setBody(in.getHeader(&quot;comment&quot;));
+    }
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+However we're missing the getAttachment and Attachment method family in general in Akka-Camel's Message hence it's impossible to achieve the desired functionality through mentioned component.
+</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">6780873</id>
+  <importance type="integer">-32</importance>
+  <importance-float type="float">-32.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dP16y-gWmr37KceJe5aVNr,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,dIWZSyoser4ys0acwqjQXA</notification-list>
+  <number type="integer">1214</number>
+  <priority type="integer">4</priority>
+  <reporter-id>dP16y-gWmr37KceJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>CAMEL: Akka-Camel Message is not wrapping Camel Jetty Message's .getAttachment method (for multi-part form support)</summary>
+  <updated-at type="datetime">2012-11-01T20:09:16+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dIWZSyoser4ys0acwqjQXA</id><login>RayRoestenburg</login><login_name warning="deprecated">RayRoestenburg</login_name><name>Raymond Roestenburg</name></assigned-to>
+  <reporter><id>dP16y-gWmr37KceJe5aVNr</id><login>krasserm</login><login_name warning="deprecated">krasserm</login_name><name>krasserm</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-10-04T21:30:04+08:00</created-on>
+  <description>From user: 
+
+&quot;Another important aspect of this is how actors should be redistributed in the cluster over time. In the example of the big tournament above the tables should be spread-out across the cluster initially, but as players are eliminated (and the number of table actors decrease) more and more tables should be moved closer to the tournament actor. This, IMO, describes some kind of `dynamic migration strategy` which would need to be defined using application-specific rules (or, once again, by setting up dynamic rules for how to allocate actors based on the hierarchy).&quot;
+
+Need to discuss if it makes sense and if so how to do it.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">7564453</id>
+  <importance type="integer">1260</importance>
+  <importance-float type="float">1260.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr,aR_tjSkIir4ipneJe5cbLA</notification-list>
+  <number type="integer">1260</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Allocation and Migration Strategy for clustered actors</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">cluster</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">cluster</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-10-18T16:02:31+08:00</created-on>
+  <description>In order to cut down on (and keep low) object allocations when creating actors, there should be two varieties:
+
+* the basic Actor, which works using overriding methods and even does not allocate a closure for &#8220;receive&#8221;
+* the fancy Actor, which provides the low-level methods internally and fills in behavior a DSL (&#224; la &#8220;uponBirth { ... }&#8221;, &#8220;uponRestart { ... }&#8221;, &#8220;become { ... }&#8221;, etc.)
+
+The reason is that we will spawn many basic actors when re-implementing ask(), and those don&#8217;t need a fancy DSL, not even the current receive().
+
+We could keep the current receive method supported (defaulting to null) and provide a default receive(Any):Boolean which delegates to that. Then everyone could live on happily in peace.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">8446293</id>
+  <importance type="integer">1293</importance>
+  <importance-float type="float">1293.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1293</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>ACTOR: split into bare-bones and DSL</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-11-25T17:49:29+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">10457623</id>
+  <importance type="integer">-15</importance>
+  <importance-float type="float">-15.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1387</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Optimize for method inlining (&lt; 35 bytes) in the hot path</summary>
+  <updated-at type="datetime">2012-10-26T00:36:55+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-05T23:38:26+08:00</created-on>
+  <description>If GC pressure of toString is more relevant than size of the ActorPath objects, a possible improvement would be to add a field to each ChildActorPath which holds the total length of the string up to this point. Then toString would allocate a StringBuilder of the right size and fill it using .replace() from the end, no copying needed.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">10948423</id>
+  <importance type="integer">-16</importance>
+  <importance-float type="float">-16.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1434</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>ActorPath: possible toString improvement</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-07T21:05:17+08:00</created-on>
+  <description>not only to speed up the process but also not to litter the memory with many representations of the same path, i.e. to canonicalize them</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11083873</id>
+  <importance type="integer">-18</importance>
+  <importance-float type="float">-18.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1446</number>
+  <priority type="integer">2</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>ActorPath: cache actorFor lookups for RemoteActorRefs</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-09T22:55:08+08:00</created-on>
+  <description>normally, an actor is created from within its parent, which means that the childrenRefs are already correctly set-up and the Supervise() message serves no purpose. I didn&#8217;t remove it just yet in case there is a legitimate case (e.g. in clustering) for creating an actor &#8220;from the outside&#8221; by the provider, in which case Supervise() would really be needed.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11214973</id>
+  <importance type="integer">-20</importance>
+  <importance-float type="float">-20.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1473</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>elide Supervise message when possible</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-10T00:56:10+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11221993</id>
+  <importance type="integer">1476</importance>
+  <importance-float type="float">1476.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1476</number>
+  <priority type="integer">4</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Create /alias path with configured aliases</summary>
+  <updated-at type="datetime">2013-05-30T09:30:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-15T23:04:40+08:00</created-on>
+  <description>Error Kernel etc. </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11504523</id>
+  <importance type="integer">-2</importance>
+  <importance-float type="float">-2.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1525</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Screencast for new ActorSystem</summary>
+  <updated-at type="datetime">2012-10-26T00:37:37+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-15T23:05:05+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11504543</id>
+  <importance type="integer">-1</importance>
+  <importance-float type="float">-1.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1526</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Screencast for new addressing</summary>
+  <updated-at type="datetime">2012-10-26T00:37:42+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-15T23:05:27+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11504573</id>
+  <importance type="integer">0</importance>
+  <importance-float type="float">0.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,alYZpMVA0r3RWMeJe5afGb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1527</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Screencast for new Future API (SIP-14 / Scala 2.10)</summary>
+  <updated-at type="datetime">2012-10-26T00:37:47+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-15T23:06:01+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11504593</id>
+  <importance type="integer">1</importance>
+  <importance-float type="float">1.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,d3-V0kbESr4l5SeJe5cbLr,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1528</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Screencast for new Routing</summary>
+  <updated-at type="datetime">2012-10-23T23:30:32+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2011-12-20T08:20:16+08:00</created-on>
+  <description>Create a section of the conf that the Netty remoting will use to filter inbound messages for NAT:ed machines.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">11716683</id>
+  <importance type="integer">-44</importance>
+  <importance-float type="float">-44.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,dT87-qXpar36xpeJe5cbLA,cQ6CkS_KWr4AFBacwqjQWU,btvzoa77Sr4BEIacwqjQYw,b-hcsK-gar4PfsacwqjQXA,dlfz3WGCWr3loTabIlDkbG</notification-list>
+  <number type="integer">1552</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>NAT Firewall for remote actors</summary>
+  <updated-at type="datetime">2013-03-22T08:56:43+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-01-03T04:36:42+08:00</created-on>
+  <description>The question about message converters made me think: given an actor A which transforms requests, sends to B, receives replies, transforms them and sends them back to the original sender. This breaks down when there are multiple senders and the sender cannot be embedded within the message (fixed protocol). In that case the closest solution is to spawn one actor per sender, keep them in a map and use these for transforming and routing the replies.
+
+This could in principle be avoided if the sender reference would carry some meta-information. Attaching it to the sender and not to the Envelope means that forwarding messages works, even to multiple destinations, while retaining the information at the &#8220;right&#8221; spot. We might use the query part of the URI for this (currently simply disallowed):
+
+&lt;code&gt;akka://sys@host:port/user/service/forwarder?orig=akka://other@host2:port/user/client&lt;/code&gt;
+
+When a reply is sent to this address, the &#8220;forwarder&#8221; actor could retrieve the meta-info and route the reply to the &#8220;client&#8221;.
+
+*IMPACT*
+
+This is of course not free: we would need to store the recipient address in the Envelope, which would typically be the same object as the actor&#8217;s path, but could potentially differ. In practice we would probably just extract the meta-info and store that or null, but the extra field is needed. And of course there would need to be an accessor method and an underlying field which is potentially set upon each message processed.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">12224513</id>
+  <importance type="integer">-26</importance>
+  <importance-float type="float">-26.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,aHJcjeTsyr4z1OacwqjQWU</notification-list>
+  <number type="integer">1602</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>THOUGHTSTORMING: allow attaching of meta-information to sender reference</summary>
+  <updated-at type="datetime">2013-05-30T09:30:16+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-01-04T17:16:22+08:00</created-on>
+  <description>This is how it works now: &quot;Addresses with the local system&#8217;s name, host and port are resolved to local actor refs, meaning that no network transport is used. Any other address will use remoting.&quot;
+
+Communication between two actor systems in same jvm should be optimized to local sends.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">12300103</id>
+  <importance type="integer">-21</importance>
+  <importance-float type="float">-21.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1603</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Optimize remote send in same jvm</summary>
+  <updated-at type="datetime">2013-05-30T09:30:16+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-01-18T04:04:26+08:00</created-on>
+  <description>The protocol is basically prepared, what is needed is a registry for actor systems and to enable reuse of RemoteSupport. </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">13023063</id>
+  <importance type="integer">8</importance>
+  <importance-float type="float">8.100000381469727</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1658</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>allow multiple ActorSystems to share a remote endpoint</summary>
+  <updated-at type="datetime">2013-05-30T09:30:16+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-02-02T23:04:34+08:00</created-on>
+  <description>Suggested by Martin: 
+&lt;pre&gt;
+%A John T. Feo, ed.
+%Z LLNL
+%T A Comparative Study of Parallel Programming Languages:
+The Salishan Problems
+%S Special Topics in Supercomputing
+%V 6
+%I North Holland
+%C Amsterdam
+%D 1992
+%K book, text, Hamming's Problem (primes), paraffins problem, skyline
+matrix,
+doctor's office problem,
+languages: Ada, C*, Haskell, Id, OCCAM, PCN, Scheme, SISAL,
+dynamic dataflow, functional, imperative,
+&lt;/pre&gt;
+
+
+1. Hamming's Problem
+---------------------
+Given a set of primes {a,b,c..} of unknown size and an integer
+n, output in increasing order and without duplicates all integers of the
+form
+a^i * b^j *c^k ... &lt;= n
+Observe that if r is in the output stream, then,
+a*r, b*r, c*r, ... &lt;= n
+are also in the output stream.
+
+The problem tests a language's ability to express recursive stream
+computations and producer/consumer parallelism, and to support dynamic task
+creation.
+
+2. Paraffins Problem
+---------------------
+Given an integer n, output the chemical structure of all paraffin
+molecules for i&lt;=n, without repetitions and in order of increasing
+size. Include all isomers, but no duplicates. The chemical formula for
+paraffin molecules is C[i]H[2i+2]. You may choose any representation for the
+molecules, so long as it clearly distinguishes among isomers.
+The problem addresses the representation of recursive tree structures,
+the creations and manipulation of those structures and nested loop
+parallelism.
+
+3. The Doctor's Office
+-----------------------
+Given a set of patients, a set of doctors, and a receptionist,
+model the following interactions: initially, all patients are well, and
+all doctors are in FIFO queue awaiting sick patients. At random times,
+patients become sick and enter a FIFO queue for treatment by one of the
+doctors. The receptionist handles the two queues, assigning patients to
+doctors in a first-in-first-out manner. Once a doctor and patient are
+paired,
+the doctor diagnoses the illness and cures the patient in a random amount
+of time. The patient is then released, and the doctor rejoins the doctor
+queue to await another patient. The output of the problem is intentionally
+unspecified.
+The problem tests the language`s ability to program a set of
+concurrent, asynchronous processes with circular dependencies.
+
+4. Skyline Matrix Solver
+-------------------------
+Solve the system of linear equations.
+Ax = b
+without pivoting where A is ann by n skyline matrix. A skyline matrix
+has nonzero values in row i in column k through i, 1 &lt;= k &lt;= i, and
+nonzero values in column k through j, 1 &lt;= k &lt;= j.
+
+The problem tests the ability to define array structures that include
+nonessential elements (i.e. the zeros), and given those structure,
+efficiency of parallel and iterative array computations.
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">14057023</id>
+  <importance type="integer">-4</importance>
+  <importance-float type="float">-4.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1778</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Look into some (standard) benchmarks for Akka</summary>
+  <updated-at type="datetime">2012-10-26T00:34:00+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-02-07T17:48:07+08:00</created-on>
+  <description>Same IDL as Protobuf but 1-3 times performance.
+Should just be a matter of compiling using Protostuff instead of Protobuf and test it through. 
+Need bench first. E.g. depends on #1797
+http://code.google.com/p/protostuff/</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">14381403</id>
+  <importance type="integer">-22</importance>
+  <importance-float type="float">-22.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1798</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Switch network protocol to use Protostuff</summary>
+  <updated-at type="datetime">2013-02-04T22:08:15+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-02-27T16:03:18+08:00</created-on>
+  <description>From Scott Clasen: 
+
+&lt;pre&gt;
+Some food for thought for you... certainly on Heroku and Im guessing for many other cloud platforms, HTTP is definitely the first class transport, and using straight TCP is either more difficult or unsupported.
+Putting the added overhead of wrapping up/unwrapping the protobuf RPC in an HTTP  wrapper, would there be any blockers you can think of that would prevent Akka from running on top of a remoting and clustering layer that did just that and wrapped the protobuf in HTTP and had netty pipelines that did the proper encoding/decoding such that everything else would function normally???
+&lt;/pre&gt;
+
+&lt;pre&gt;
+For TCP, we have an internal private alpha version of what we call TCPRouter, which we could use to test akka remoting/clustering via TCP.  There are both command line tools and soon a java api to control the routing...so here is pseudocode of how it works.
+
+https://github.com/JacobVorreuter/heroku-routing 
+
+Lets say we have an app deployed to heroku, that has one process type called 'akka' and we wanted to do a 32 node test.
+
+Pseudocode
+
+for(1 to 32) {
+  i =&gt; 
+      val route = heroku routes:create // route is something like tcp://routes.heroku.com:12345 
+      heroku routes:attach route &quot;akka.&quot; + i
+}
+
+heroku scale akka=32
+
+The akka app should then use the api to read attached routes for the app, and use that to seed the gossip protocol.
+
+Note that we arent very close to actually releasing this feature, but it will do for akka internal testing.
+&lt;/pre&gt;
+
+&lt;pre&gt;
+There is a REST api sitting behind all of the commands in the command line tooling.
+
+We also have a java client wrapper for it, https://github.com/heroku/heroku.jar .  (BTW we will include a Spray-can based connector once spray supports SSL clients). So for instance, an akka app could use the api to self scale based on load.
+
+There isnt a java wrapper for the routing api yet, since it isnt public, but it would be trivial to hit the REST api directly from an akka app to get the gossip seed.
+
+So without TCP routing we still couldn't even do a true HTTP based cluster app on Heroku, because without TCP routing, the individual nodes are not directly addressable, so all HTTP traffic flows through our routing layer and is non-sticky load balanced across nodes.
+
+However, with TCP routing, we can also use the tcp-route to talk over HTTP.  So for instance....take an app with 2 web nodes (play 2 with akka 'http-remoting' enabled) and 2 akka nodes.
+
+We could do something like
+
+attach tcp routes to the 2 web processes and the 2 akka processes. Lets assume they are all speaking akka &quot;http-remoting&quot;. they also grab the gossip seed via api.
+
+Now all the nodes are directly accessible for http based gossip/remoting/clustering, and the play web frontend is publicly accessible through http://my-app-name.herokuapp.com  with traffic flowing through the normal path of our erlang routing/load balancing mesh.
+&lt;/pre&gt;</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">15716183</id>
+  <importance type="integer">1866</importance>
+  <importance-float type="float">1866.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">1866</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Investigate running Akka cluster on Heroku</summary>
+  <updated-at type="datetime">2012-02-27T16:03:18+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-03-29T15:14:50+08:00</created-on>
+  <description>The upstream handler will simply invoke tell() on the ActorRef; if that blocks, that TCP connection is blocked. Cannot be solved in general because of possibly misbehaving custom mailbox impls, but we can abort early in case of our own BoundedMailbox types.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">17899473</id>
+  <importance type="integer">-12</importance>
+  <importance-float type="float">-12.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,bjGDqiZY0r3jd5abIlDkbG</notification-list>
+  <number type="integer">1961</number>
+  <priority type="integer">4</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Sending to an Actor with BoundedMailbox via the network blocks Netty thread</summary>
+  <updated-at type="datetime">2013-05-30T09:30:17+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-03-30T15:15:39+08:00</created-on>
+  <description>inspired by https://github.com/knoldus/Akka2Bench</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">17995213</id>
+  <importance type="integer">-9</importance>
+  <importance-float type="float">-9.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">1968</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>zeromq: add performance test</summary>
+  <updated-at type="datetime">2013-05-30T09:30:17+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">zeromq</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">zeromq</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-04-03T20:11:07+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">18202944</id>
+  <importance type="integer">-23</importance>
+  <importance-float type="float">-23.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,da_DgGqT0r35syeJe5aVNr,cw1KuKVAKr3OgceJe5afGb,c3yFkWgHir44NdacwqjQWU</notification-list>
+  <number type="integer">1975</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>&#248;mq: make polling scheme more intelligent for REQ/REP sockets</summary>
+  <updated-at type="datetime">2013-05-30T09:30:17+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">zeromq</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">zeromq</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-05-03T02:23:47+08:00</created-on>
+  <description>https://github.com/peter-lawrey/Java-Thread-Affinity</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">20295013</id>
+  <importance type="integer">-24</importance>
+  <importance-float type="float">-24.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb</notification-list>
+  <number type="integer">2035</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Investigate possibility to use Thread Affinity for dispatchers</summary>
+  <updated-at type="datetime">2012-10-26T00:36:56+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-05-11T00:02:17+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">21028383</id>
+  <importance type="integer">-28</importance>
+  <importance-float type="float">-28.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb</notification-list>
+  <number type="integer">2060</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>THOUGHTSTORMING: Investigate possibility to use Thread.stop(reason) to kill the processing of an actor</summary>
+  <updated-at type="datetime">2012-10-27T06:28:51+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-05-25T03:02:51+08:00</created-on>
+  <description>Now the user needs to do this: context.actorOf(Props[MyChild].withRouter(RoundRobinRouter(1).withSupervisorStrategy(&#8230;)))
+Not that nice. </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">22006293</id>
+  <importance type="integer">-34</importance>
+  <importance-float type="float">-34.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">2127</number>
+  <priority type="integer">4</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Create a DSL for creating middle man supervisors in an actor hierarchy</summary>
+  <updated-at type="datetime">2012-11-01T20:15:25+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-05-25T03:11:13+08:00</created-on>
+  <description>* find ancestor with name or starts with name N
+* find any actor in tree with name N
+* etc. 
+Brainstorm. 
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">22006833</id>
+  <importance type="integer">-7</importance>
+  <importance-float type="float">-7.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">2128</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Research richer querying API for navigating/finding actors in a hierarchy</summary>
+  <updated-at type="datetime">2012-10-26T00:34:23+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-06-07T03:34:18+08:00</created-on>
+  <description>This question comes up over and over, as I've mentioned before, it would really help adoption of the framework if such a very common use case most people will encounter is well understood through documentation and examples. 
+ 
+here is a recent example of trying to establish a &quot;best practices&quot; pattern: https://groups.google.com/d/msg/akka-user/_t1ER27Df78/NpHpzCPKGrYJ
+
+using a separate dispatcher for the db representing router &amp; routees sounds like a great (and necessary!) idea, good call. 
+
+older discussions:
+
+https://groups.google.com/d/msg/akka-user/4F0wQNnMHUE/h0T-ZzsxRFkJ
+https://groups.google.com/d/msg/akka-user/EDKA2aTigho/NcTiJ6ZWggYJ</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">24077063</id>
+  <importance type="integer">-6</importance>
+  <importance-float type="float">-6.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb,aLXp-ABuer36EDeJe5cbLA,dpOsQWTQCr4lfBeJe5cbLr,b_Kr2sokOr4OEFacwqEsg8</notification-list>
+  <number type="integer">2190</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>DOC: document blocking database actors pattern</summary>
+  <updated-at type="datetime">2013-05-30T09:30:17+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">docs</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">docs</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-06-14T18:02:46+08:00</created-on>
+  <description>Using 'm2eclipse-scala plugin' and whatever needed.
+
+Perhaps also how to set up Scala and Akka in a Scala environment with SBT and Eclipse.
+
+Dummy guide with screenshots etc. For newbies. 
+
+Both Windows, Mac and Linux. 
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">24757273</id>
+  <importance type="integer">-5</importance>
+  <importance-float type="float">-5.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">2234</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>DOC: document how to set up Scala and Akka in a Java environment with Maven and Eclipse</summary>
+  <updated-at type="datetime">2012-10-26T00:34:07+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-06-14T19:58:44+08:00</created-on>
+  <description>Find all *.proto and generate and fix-protobuf
+
+cd ./akka-remote/src/test/protocol
+protoc ProtobufProtocol.proto --java_out ../java
+cd ../../../..
+./scripts/fix-protobuf.sh</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">25258333</id>
+  <importance type="integer">-3</importance>
+  <importance-float type="float">-3.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb</notification-list>
+  <number type="integer">2235</number>
+  <priority type="integer">4</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Use scribt to automate the protoc compilation on every compile</summary>
+  <updated-at type="datetime">2012-10-26T00:33:45+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-06-26T17:11:44+08:00</created-on>
+  <description>Integrate into our current testing infrastructure.
+Read more: http://twitter.github.com/iago/philosophy.html
+
+Should be pretty easy to write extension that can talk directly to remote actors:
+http://twitter.github.com/iago/protocols.html
+https://github.com/twitter/iago/blob/master/src/main/scala/com/twitter/parrot/server/FinagleTransport.scala
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">26463663</id>
+  <importance type="integer">-42</importance>
+  <importance-float type="float">-42.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">2274</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Investigate if we can use Twitter's Lago load-testing toolkit for creating load-tests</summary>
+  <updated-at type="datetime">2012-11-01T20:42:11+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-08-15T16:03:42+08:00</created-on>
+  <description>Boundary now has a free subscription plan. Many using it to test distributed systems (including Riak/Basho). 
+http://blog.boundary.com/2012/08/14/announce/
+
+I suggest we use it. 
+
+1. Set up Boundary on the machines we use for clustering tests
+2. Bring up the Boundary dashboard on the big TV monitor at Akka HQ
+
+I have already installed it on 'scalable1' (and it is running fine now monitoring all services) and have created an account, so talk to me (Jonas) before doing it. 
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">29898533</id>
+  <importance type="integer">-39</importance>
+  <importance-float type="float">-39.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,ar3pRos-Cr4Bo4acwqjQYw</notification-list>
+  <number type="integer">2390</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Set up Boundary monitoring tools on the cluster testing machines</summary>
+  <updated-at type="datetime">2012-11-10T04:43:02+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-08-30T22:58:11+08:00</created-on>
+  <description>https://bitbucket.org/jmhofer/jacoco4sbt/wiki/Home</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">30972153</id>
+  <importance type="integer">-38</importance>
+  <importance-float type="float">-38.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb</notification-list>
+  <number type="integer">2457</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Look into if we can use JaCoCo4sbt code coverage tool + sbt plugin</summary>
+  <updated-at type="datetime">2012-11-01T20:25:56+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-09-03T20:08:41+08:00</created-on>
+  <description>Investigate possibility to add user-level throttling of actors, perhaps something like receiveTimeout(negative time)? (Since a combination of this and receiveTimeout is exclusive)</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">31178693</id>
+  <importance type="integer">-29</importance>
+  <importance-float type="float">-29.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb</notification-list>
+  <number type="integer">2465</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>THOUGHTSTORMING:  FEATURE: User-level throttling</summary>
+  <updated-at type="datetime">2012-10-27T06:28:51+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-09-07T03:00:22+08:00</created-on>
+  <description>Might have to loop over dispatchers and terminate them</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">31476483</id>
+  <importance type="integer">-30</importance>
+  <importance-float type="float">-30.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,cAHWryHySr4QToacwqEsg8</notification-list>
+  <number type="integer">2479</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>THOUGHTSTORMING: Investigate possibility of quick clean shutdown of threads after ActorSystem.shutdown completes.</summary>
+  <updated-at type="datetime">2012-11-02T20:31:51+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-09-18T15:47:27+08:00</created-on>
+  <description>Take a few days where the whole team rights this up.
+
+Perhaps 3 solutions: 
+- ActiveMQ based reference
+- Java using Akka Remoting
+- Scala using Akka Remoting
+
+Then write up a case-study white paper on the topic.
+
+Perhaps also let the Play team layer a Play UI on top and use the DB through Slick to get a full stack reference sample project. 
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">32234323</id>
+  <importance type="integer">-37</importance>
+  <importance-float type="float">-37.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,d3-V0kbESr4l5SeJe5cbLr,cvgdXWWY0r4kv3eJe5cbCb,alYZpMVA0r3RWMeJe5afGb,ar3pRos-Cr4Bo4acwqjQYw,dYbsaSchCr4k9jeJe5cbCb</notification-list>
+  <number type="integer">2516</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Design and implement a case-study Akka vs MQ for reliable messaging</summary>
+  <updated-at type="datetime">2012-11-01T20:25:21+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>ajCEdmAQWr3Bdeab7jnrAJ</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-10-03T18:01:56+08:00</created-on>
+  <description>As far as I see, Java does not provide means for asynchronous name lookups (e.g. DNS), which may turn some Transport calls into blocking calls, implicitly.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">33775363</id>
+  <importance type="integer">-47</importance>
+  <importance-float type="float">-47.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ</notification-list>
+  <number type="integer">2591</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Solve name lookups asynchronously</summary>
+  <updated-at type="datetime">2013-11-08T20:20:52+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-10-16T15:28:18+08:00</created-on>
+  <description>It is possible to load multiple instances of Transport implementing the same protocol. For the Remoting to be able to choose the appropriate one, the transports should be scoped to specific addresses/address ranges. Therefore a parser for ip masks and ip address ranges (and a corresponding matcher engine) is needed. It should support Ipv4 and Ipv6 addresses.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">36090383</id>
+  <importance type="integer">-46</importance>
+  <importance-float type="float">-46.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ</notification-list>
+  <number type="integer">2622</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Ip address patterns support for Transports</summary>
+  <updated-at type="datetime">2013-05-30T09:30:19+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-10-17T06:24:45+08:00</created-on>
+  <description>Check for pgp signing on release, otherwise sonatype release will fail.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">36160153</id>
+  <importance type="integer">-49</importance>
+  <importance-float type="float">-49.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">2624</number>
+  <priority type="integer">4</priority>
+  <reporter-id>da_DgGqT0r35syeJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Check for pgp signing on release</summary>
+  <updated-at type="datetime">2012-12-05T21:12:21+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>da_DgGqT0r35syeJe5aVNr</id><login>pvlugter</login><login_name warning="deprecated">pvlugter</login_name><name>Peter Vlugter</name><organization>Typesafe</organization><website>http://typesafe.com</website></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-10-17T06:28:40+08:00</created-on>
+  <description>Run releases via jenkins so that no extra developer configuration required (like signing or credentials) and anyone can hit the button. Jenkins should already have the prerequisites in place.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">36160383</id>
+  <importance type="integer">-36</importance>
+  <importance-float type="float">-36.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>da_DgGqT0r35syeJe5aVNr</notification-list>
+  <number type="integer">2625</number>
+  <priority type="integer">3</priority>
+  <reporter-id>da_DgGqT0r35syeJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Automated release via jenkins</summary>
+  <updated-at type="datetime">2012-11-01T20:21:54+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>da_DgGqT0r35syeJe5aVNr</id><login>pvlugter</login><login_name warning="deprecated">pvlugter</login_name><name>Peter Vlugter</name><organization>Typesafe</organization><website>http://typesafe.com</website></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-10-18T20:15:13+08:00</created-on>
+  <description>math.uncommons is used to implement a crypto provider to replace the flawed SecureRandom based seed generator in Java. It could be completely replaced by a small amount of Scala code.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">36304283</id>
+  <importance type="integer">-35</importance>
+  <importance-float type="float">-35.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ</notification-list>
+  <number type="integer">2636</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Remove math.uncommons dependency</summary>
+  <updated-at type="datetime">2013-05-30T09:30:19+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-11-05T21:47:59+08:00</created-on>
+  <description>While I am all for diversity, and it is nice to see the gallery of all the possible echo actors people use for testing, it would be nice to have some standard helper actor Props available in TestKit.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">37523933</id>
+  <importance type="integer">-48</importance>
+  <importance-float type="float">-48.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ</notification-list>
+  <number type="integer">2681</number>
+  <priority type="integer">4</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Create a &quot;standard&quot; Echo actor available for tests</summary>
+  <updated-at type="datetime">2013-05-30T09:30:19+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">testkit</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">testkit</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>baXRxwd-0r4yISacwqjQWU</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-11-25T18:05:04+08:00</created-on>
+  <description>Running &lt;code&gt;g8 typesafehub/akka-scala-sbt&lt;/code&gt; gives me a project with a default Akka version of 2.0.1, but the release version is 2.0.4 at the time of writing.
+
+Since these templates are mainly aimed at new users it would be nicer if they tracked the latest release version.
+
+akka-first-tutorial-*: 2.0.3
+akka-java-main: 2.0.1
+akka-scala-sbt: 2.0.1
+
+If this is something we want to do at each release then we could also add this step to our standard Akka release procedure.
+
+Feel free to assign this to me, unless someone else is better suited. :)</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">39057783</id>
+  <importance type="integer">-52</importance>
+  <importance-float type="float">-52.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>baXRxwd-0r4yISacwqjQWU</notification-list>
+  <number type="integer">2741</number>
+  <priority type="integer">3</priority>
+  <reporter-id>baXRxwd-0r4yISacwqjQWU</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Update giter8 templates to latest version of Scala</summary>
+  <updated-at type="datetime">2013-02-21T08:42:11+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>baXRxwd-0r4yISacwqjQWU</id><login>richdougherty</login><login_name warning="deprecated">richdougherty</login_name><name>Rich Dougherty</name></assigned-to>
+  <reporter><id>baXRxwd-0r4yISacwqjQWU</id><login>richdougherty</login><login_name warning="deprecated">richdougherty</login_name><name>Rich Dougherty</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-02-01T18:28:31+08:00</created-on>
+  <description>_&quot;In Dean&#8217;s experiments, BigTable&#8217;s 99.9th percentile latency dropped to 50ms when he sent out a second, redundant request if the initial request hadn&#8217;t come back in 10ms&#8212;a 40x improvement.&quot;_ - http://www.bailis.org/blog/doing-redundant-work-to-speed-up-distributed-queries/
+
+So the idea is to have a router that:
+# Routes a message to one routee at first.
+# If it hasn't received a reply in time _x_ then route the message to a second routee.
+# Reply with the first result received; discard any redundant replies.
+
+This should have lower resource use than a ScatterGatherFirstCompletedRouter but would still serve to reduce variance in most cases.
+
+It might also be possible to generalise the ScatterGatherFirstCompletedRouter to support this use case.
+</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">44965273</id>
+  <importance type="integer">-51</importance>
+  <importance-float type="float">-51.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">117390</milestone-id>
+  <notification-list>baXRxwd-0r4yISacwqjQWU</notification-list>
+  <number type="integer">3004</number>
+  <priority type="integer">3</priority>
+  <reporter-id>baXRxwd-0r4yISacwqjQWU</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>TailChoppingRouter</summary>
+  <updated-at type="datetime">2013-02-11T05:15:21+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>baXRxwd-0r4yISacwqjQWU</id><login>richdougherty</login><login_name warning="deprecated">richdougherty</login_name><name>Rich Dougherty</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+</tickets>

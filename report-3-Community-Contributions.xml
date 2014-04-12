@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+<ticket>
+  <assigned-to-id>aHJcjeTsyr4z1OacwqjQWU</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-06-16T11:16:40Z</created-on>
+  <description>Similar to Voldermort's Zones: https://github.com/voldemort/voldemort/wiki/Topology-awareness-capability
+Would allow spreading the risk by routing to different instances on different racks or datacenters. 
+
+Also see Cassandras RackAwareStrategy: http://wiki.apache.org/cassandra/Operations#Replication
+Cassandra's config is like this, with 'Data Center:Rack' mapped to host:port:
+&lt;pre&gt;
+#Cassandra Node IP:Port=Data Center:Rack
+192.168.1.200\:7000=dc1:r1
+192.168.2.300\:7000=dc2:rA
+&lt;/pre&gt;
+Parsed by: http://svn.apache.org/repos/asf/cassandra/tags/cassandra-0.6.1/contrib/property_snitch/src/java/org/apache/cassandra/locator/PropertyFileEndPointSnitch.java
+
+But I think I prefer Voldemort's scheme. Let's think about what is most useful in our env and come up with our own. </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">25893243</id>
+  <importance type="integer">-4</importance>
+  <importance-float type="float">-4.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>cw1KuKVAKr3OgceJe5afGb,aHJcjeTsyr4z1OacwqjQWU</notification-list>
+  <number type="integer">2243</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cw1KuKVAKr3OgceJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Create topology-aware routers</summary>
+  <updated-at type="datetime">2014-02-26T13:11:22Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>aHJcjeTsyr4z1OacwqjQWU</id><login>helena@helenaedelson.com</login><login_name warning="deprecated">helena@helenaedelson.com</login_name><name>Helena Edelson</name></assigned-to>
+  <reporter><id>cw1KuKVAKr3OgceJe5afGb</id><login>jboner</login><login_name warning="deprecated">jboner</login_name><name>Jonas Bonér</name><organization>Typesafe, Inc.</organization><website>http://typesafe.com</website><phone>+46733777123</phone><first_im><type/><id>@jboner</id></first_im></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2012-11-13T07:15:23Z</created-on>
+  <description>A common actor pattern is to batch a bunch of data or messages, then flush the batch and act on it, perhaps writing it to a datastore or sending it somewhere else.
+There are at least two parameters:
+
+# Maximum number of messages before flushing
+# A timeout, after which any collected messages are flushed
+
+This pattern can be extended in multiple directions:
+- resiliency, as in automatic retries
+- sending acks back to the sender
+
+Roland has pointed out the Buncher example from the akka-samples-fsm:
+ https://github.com/akka/akka/blob/master/akka-samples/akka-sample-fsm/src/main/scala/Buncher.scala
+
+This probably fits most of the bill and is a good starting point.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">38184443</id>
+  <importance type="integer">-1</importance>
+  <importance-float type="float">-1.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>d0sotEi5mr4QrKacwqjQXA,dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">2702</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d0sotEi5mr4QrKacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Batching Pattern</summary>
+  <updated-at type="datetime">2012-12-05T16:30:02Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>d0sotEi5mr4QrKacwqjQXA</id><login>velvia</login><login_name warning="deprecated">velvia</login_name><name>velvia</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-01-20T11:32:28Z</created-on>
+  <description>Start from scratch,
+use JNA directly,
+wrap a Poller as a Selector.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">43658023</id>
+  <importance type="integer">-6</importance>
+  <importance-float type="float">-6.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,cv1OLAfFqr4jz8eJe5cbCb,aHJcjeTsyr4z1OacwqjQWU,b0tebKCoGr4lf_eJe5cbCb,ayVZpq8rWr4QBdacwqjQYw</notification-list>
+  <number type="integer">2924</number>
+  <priority type="integer">4</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Implement the akka-zeromq module as an IO Provider</summary>
+  <updated-at type="datetime">2014-02-26T14:40:56Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">zeromq</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">zeromq</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-11-11T10:12:20Z</created-on>
+  <description>Allow the use of an in memory transport to allow actor systems loaded in different class loaders to interoperate without going through TCP loopback.
+
+Might be useful in an OSGi setting if you want to dynamically load/unload actor systems.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">70082243</id>
+  <importance type="integer">-7</importance>
+  <importance-float type="float">-7.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>ar3pRos-Cr4Bo4acwqjQYw</notification-list>
+  <number type="integer">3714</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ar3pRos-Cr4Bo4acwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Create in memory network transport</summary>
+  <updated-at type="datetime">2014-02-26T14:57:17Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-12-10T12:02:07Z</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">72669793</id>
+  <importance type="integer">-3</importance>
+  <importance-float type="float">-3.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3775</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>HDFS snapshot store</summary>
+  <updated-at type="datetime">2014-02-26T13:57:53Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">persistence</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">persistence</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>bFUgTa5Kyr4ka_acwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-01-30T16:13:14Z</created-on>
+  <description>td;dr: akka-zmq is two major versions behind zmq latest, it also requires a binary dependency
+
+Right now akka-zmq depends on the scala wrapper that in time depends on jzmq.
+
+The wrapper is poorly maintained, it supports zmq 2.x when the latest version is 4.0.3, plus it needs the binary dependency to work properly.
+
+We had a lot of issues with the binaries, name clashes, remembering to set java.library.path properly, etc. so we moved from jzmq to jeromq. We are running high throughput services and we didn't notice a speed hit. Neither did the maintainer on his benchmarks (though he may be biased).
+
+Jeromq supports zmq 3.x and doesn't depend on any binary or java.lib configuration. I'm willing to make the move if you guys are OK with it (it should be simple, they have compatible APIs)</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">76988763</id>
+  <importance type="integer">-5</importance>
+  <importance-float type="float">-5.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">2307093</milestone-id>
+  <notification-list>bFUgTa5Kyr4ka_acwqjQXA</notification-list>
+  <number type="integer">3856</number>
+  <priority type="integer">4</priority>
+  <reporter-id>bFUgTa5Kyr4ka_acwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Move akka-zmq from jzmq to jeromq</summary>
+  <updated-at type="datetime">2014-02-26T14:30:06Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>bFUgTa5Kyr4ka_acwqjQXA</id><login>fernandezpablo85</login><login_name warning="deprecated">fernandezpablo85</login_name><name>fernandezpablo85</name></assigned-to>
+  <reporter><id>bFUgTa5Kyr4ka_acwqjQXA</id><login>fernandezpablo85</login><login_name warning="deprecated">fernandezpablo85</login_name><name>fernandezpablo85</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">zeromq</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">zeromq</CustomField>
+</CustomFields>
+</ticket>
+</tickets>

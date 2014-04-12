@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+<ticket>
+  <assigned-to-id>cgRGBCFpKr44lcacwqjQYw</assigned-to-id>
+  <completed-date type="datetime">2014-03-12T04:23:23+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-01-28T22:55:06+08:00</created-on>
+  <description>You'll need to go through and fix any and all tests that assumed ``remaining`` worked outside of ``within``</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">44452313</id>
+  <importance type="integer">-525</importance>
+  <importance-float type="float">-525.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>alYZpMVA0r3RWMeJe5afGb,cgRGBCFpKr44lcacwqjQYw</notification-list>
+  <number type="integer">2971</number>
+  <priority type="integer">3</priority>
+  <reporter-id>alYZpMVA0r3RWMeJe5afGb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Make TestKit.remaining throw an AssertionError or similar if used outside of ``within``</summary>
+  <updated-at type="datetime">2014-03-12T04:23:23+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>cgRGBCFpKr44lcacwqjQYw</id><login>drexin</login><login_name warning="deprecated">drexin</login_name><name>drexin</name></assigned-to>
+  <reporter><id>alYZpMVA0r3RWMeJe5afGb</id><login>viktorklang</login><login_name warning="deprecated">viktorklang</login_name><name>viktorklang</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>aY-QieoYOr44ldacwqjQWU</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-02-14T12:02:14+08:00</created-on>
+  <description>It seems like a common sticking point, maybe we could add some docs?
+
+https://groups.google.com/d/topic/akka-user/STev8aTtKiY/discussion
+https://groups.google.com/d/topic/akka-user/fnKImhosEsE/discussion
+https://groups.google.com/d/topic/akka-user/HKQYZc0NnBs/discussion</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">46093413</id>
+  <importance type="integer">-489</importance>
+  <importance-float type="float">-489.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>baXRxwd-0r4yISacwqjQWU,aY-QieoYOr44ldacwqjQWU</notification-list>
+  <number type="integer">3043</number>
+  <priority type="integer">3</priority>
+  <reporter-id>baXRxwd-0r4yISacwqjQWU</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>DOC: Testing parent/child interactions</summary>
+  <updated-at type="datetime">2014-01-21T22:05:10+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>aY-QieoYOr44ldacwqjQWU</id><login>mljungblad</login><login_name warning="deprecated">mljungblad</login_name><name>mljungblad</name></assigned-to>
+  <reporter><id>baXRxwd-0r4yISacwqjQWU</id><login>richdougherty</login><login_name warning="deprecated">richdougherty</login_name><name>Rich Dougherty</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">docs</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">docs</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>cgRGBCFpKr44lcacwqjQYw</assigned-to-id>
+  <completed-date type="datetime">2014-03-12T04:24:05+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-04-18T16:52:37+08:00</created-on>
+  <description>Create a simple Mailbox that maintains two queues instead of one that prefers dequeuing from one of them. This is useful for control messages that need no ordering in relation to normal messages, but need prioritized delivery, especially when the actor is under load.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">51934473</id>
+  <importance type="integer">-539</importance>
+  <importance-float type="float">-539.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ,d3-V0kbESr4l5SeJe5cbLr,cgRGBCFpKr44lcacwqjQYw</notification-list>
+  <number type="integer">3246</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Provide a simple PriorityMailbox based on two queues</summary>
+  <updated-at type="datetime">2014-03-12T04:51:54+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>cgRGBCFpKr44lcacwqjQYw</id><login>drexin</login><login_name warning="deprecated">drexin</login_name><name>drexin</name></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dVabCUatCr4AZLacwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-09-22T09:45:41+08:00</created-on>
+  <description>We could add a system actor that watches event stream listeners and unsubscribes them on termination. 
+
+If this is not urgent, I'd love to give it a try.</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">65158813</id>
+  <importance type="integer">-534</importance>
+  <importance-float type="float">-534.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>b3bGMs4nur3RAbeJe5aVNr,dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3623</number>
+  <priority type="integer">3</priority>
+  <reporter-id>b3bGMs4nur3RAbeJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>4</status>
+  <status-name>Test</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Event stream should unsubscribe terminated listeners</summary>
+  <updated-at type="datetime">2014-02-26T22:36:44+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></assigned-to>
+  <reporter><id>b3bGMs4nur3RAbeJe5aVNr</id><login>hseeberger</login><login_name warning="deprecated">hseeberger</login_name><name>Heiko Seeberger</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>amcw4wBk0r3ij4abIlDkbG</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-11-21T08:50:07+08:00</created-on>
+  <description>I'm playing around with the new aroundReceive, as you guys suggested me some days ago, to implement the contextual actors pattern.
+And after using it for a while, I have some feedback. I think it is needed a way to wrap/decorate receive invocation, and aroundReceive could be a good approach for internal use, but I think it won't fit the final users needs, if you have to plugin multiple decorations, overriding mechanism isn't flexible enough. You have not the total control to decide if some decoration will be inner or outer relatively to other.
+
+So, I think that the know interceptors chain pattern could fit perfectly for this purpose. We can have just one trait overriding aroundReceive which has the ability to add interceptors to the chain, and execute them all around receive invocation.
+
+interceptReceive(interceptor) // Adds to chain's end, or start
+interceptReceive(interceptor2, order = 2) // honors order (somehow)
+interceptReceive(interceptor3, before = classOf[Interceptor2]) // Adds to chain's relatively to existing interceptor
+
+The interceptors could be added by mixin traits that contribute to the chain, a hook could be provided for adding default interceptors and we can also specify interceptos at creation time with something like this: 
+
+Props[InterceptedActor].withInterceptors(List(interceptor1, interceptor2))
+
+Tell me what you think, if it worth the try I could spent some time on it and come up we an initial implementation.
+If you think it's a bad idea I'll keep thinking :-)
+
+Cheers!
+@ktonga
+</description>
+  <from-support type="integer">0</from-support>
+  <id type="integer">71024553</id>
+  <importance type="integer">-480</importance>
+  <importance-float type="float">-480.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>amcw4wBk0r3ij4abIlDkbG</notification-list>
+  <number type="integer">3737</number>
+  <priority type="integer">3</priority>
+  <reporter-id>amcw4wBk0r3ij4abIlDkbG</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Interceptors chain for receive</summary>
+  <updated-at type="datetime">2013-12-11T13:31:51+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Medium</estimate>
+  <total-estimate type="float">3.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>amcw4wBk0r3ij4abIlDkbG</id><login>gaston.tonietti</login><login_name warning="deprecated">gaston.tonietti</login_name><name>gaston.tonietti</name></assigned-to>
+  <reporter><id>amcw4wBk0r3ij4abIlDkbG</id><login>gaston.tonietti</login><login_name warning="deprecated">gaston.tonietti</login_name><name>gaston.tonietti</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime">2014-03-30T05:14:42+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2013-12-13T19:41:54+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">72998933</id>
+  <importance type="integer">-542</importance>
+  <importance-float type="float">-542.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>dYbsaSchCr4k9jeJe5cbCb</notification-list>
+  <number type="integer">3793</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dYbsaSchCr4k9jeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Investigate growth in PermGen needed on jenkins</summary>
+  <updated-at type="datetime">2014-04-01T03:42:49+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dYbsaSchCr4k9jeJe5cbCb</assigned-to-id>
+  <completed-date type="datetime">2014-03-22T22:50:50+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-01-25T03:45:55+08:00</created-on>
+  <description>So if you look here:
+
+http://doc.akka.io/japi/akka/2.3.0-RC1/index.html#akka.actor.Props
+
+ or here:
+
+http://doc.akka.io/japi/akka/2.2.3/index.html#akka.actor.Props
+
+you can see how the java api documentation does not match the project actor documentation:
+
+http://doc.akka.io/docs/akka/snapshot/java/untyped-actors.html
+
+ 
+1.  static class MyActorC implements Creator&lt;MyActor&gt; {
+
+2.  @Override public MyActor create() {
+
+3.  return new MyActor(&quot;...&quot;);
+
+4.  }
+
+5.  }
+
+6.   
+
+7.  Props props1 = Props.create(MyUntypedActor.class);  &lt;&lt;&lt; not included&#8230;
+
+8.  Props props2 = Props.create(MyActor.class, &quot;...&quot;);
+
+9.  Props props3 = Props.create(new MyActorC());
+
+Yet this code snippet works&#8230;  which it should according to the actor docs..  
+
+EXAMPLE CODE BELOW
+
+// documentation does not match javadoc for the line below..
+// by specifying an actor class you are asking for an instance of the
+// actor class.   Including more arguments after the class means you are asking for
+// the non default constructor.   Akka documentation specifically mentions this case
+// but the api docs do not.. so your ide may complain about this line...
+actors[i] = getActorSystem().actorOf(                                                                           Props.create(messageProcessingActorClass));</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">76472763</id>
+  <importance type="integer">-550</importance>
+  <importance-float type="float">-550.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>bvmja8Hs8r468WacwqjQYw,dYbsaSchCr4k9jeJe5cbCb</notification-list>
+  <number type="integer">3847</number>
+  <priority type="integer">3</priority>
+  <reporter-id>bvmja8Hs8r468WacwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>2</status>
+  <status-name>Invalid</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>No javadoc for Props.Create(New Actor) without any additional args in java. IDE syntax violations (Eclipse, Intellij)</summary>
+  <updated-at type="datetime">2014-03-22T22:50:50+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></assigned-to>
+  <reporter><id>bvmja8Hs8r468WacwqjQYw</id><login>supert0nes</login><login_name warning="deprecated">supert0nes</login_name><name>supert0nes</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>cgRGBCFpKr44lcacwqjQYw</assigned-to-id>
+  <completed-date type="datetime">2014-03-12T04:23:47+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-02-03T19:50:03+08:00</created-on>
+  <description>Got this from Jason Zaugg: make case classes final, and the compiler will reward you with better static analysis in your patterns!
+https://github.com/scala/scala/pull/1399#commitcomment-1910863</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">77225993</id>
+  <importance type="integer">-538</importance>
+  <importance-float type="float">-538.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,cgRGBCFpKr44lcacwqjQYw</notification-list>
+  <number type="integer">3858</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Make case classes final</summary>
+  <updated-at type="datetime">2014-03-12T04:50:57+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>cgRGBCFpKr44lcacwqjQYw</id><login>drexin</login><login_name warning="deprecated">drexin</login_name><name>drexin</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dVabCUatCr4AZLacwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-02-20T07:31:49+08:00</created-on>
+  <description>Follow up on akka-user mailing list discussion:
+https://groups.google.com/forum/#!topic/akka-user/vVUZPMeJmzw
+
+Mentioned docs here: http://doc.akka.io/docs/akka/snapshot/scala/actors.html#Extending_Actors_using_PartialFunction_chaining</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">78860643</id>
+  <importance type="integer">-531</importance>
+  <importance-float type="float">-531.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3886</number>
+  <priority type="integer">4</priority>
+  <reporter-id>dVabCUatCr4AZLacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>DOC: Improve PartialFunction chaining pattern docs</summary>
+  <updated-at type="datetime">2014-02-26T20:55:46+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">None</estimate>
+  <total-estimate type="float">0.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></assigned-to>
+  <reporter><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">docs</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">docs</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>ar3pRos-Cr4Bo4acwqjQYw</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-02-21T20:00:28+08:00</created-on>
+  <description></description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">79032313</id>
+  <importance type="integer">-528</importance>
+  <importance-float type="float">-528.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>ar3pRos-Cr4Bo4acwqjQYw</notification-list>
+  <number type="integer">3890</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ar3pRos-Cr4Bo4acwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Activator template for Actor for Java 8</summary>
+  <updated-at type="datetime">2014-02-21T20:00:54+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></assigned-to>
+  <reporter><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dVabCUatCr4AZLacwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-02-25T06:44:39+08:00</created-on>
+  <description>This task emerged during impl of https://www.assembla.com/spaces/akka/simple_planner#/ticket:3623 (EventStream using death watch instead of isTerminated).
+ActorSelection based buses should work the same way with unsubscribing actors that terminate as EventStream does.
+
+Related pull request: https://github.com/akka/akka/pull/2037
+
+Suggested to schedule for 2.4 (by @rkuhn https://github.com/akka/akka/pull/2011#issuecomment-35864011 ),
+since it's breaking API (ActorClassification now requires an ActorSystem). Could be rewritten to use an init method though - but the &quot;require actor system&quot; style feels more natural IMO.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">79256203</id>
+  <importance type="integer">-533</importance>
+  <importance-float type="float">-533.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3893</number>
+  <priority type="integer">4</priority>
+  <reporter-id>dVabCUatCr4AZLacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>4</status>
+  <status-name>Test</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>ActorClassification should unsubscribe terminated subscribers</summary>
+  <updated-at type="datetime">2014-02-26T21:30:47+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></assigned-to>
+  <reporter><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dP16y-gWmr37KceJe5aVNr</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-02-27T17:02:46+08:00</created-on>
+  <description>https://jenkins.akka.io:8498/job/akka-multi-node-nightly/892/consoleFull
+
+Probably just a timeout.
+
+&lt;pre&gt;&lt;code&gt;[info] SharedLeveldbJournalSpec:
+Coroner Thread Count starts at 42 in akka.persistence.journal.leveldb.SharedLeveldbJournalSpec
+[info] A LevelDB store
+[info] - can be shared by multiple actor systems *** FAILED ***
+[info]   java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsg while waiting for a1
+[info]   at scala.Predef$.assert(Predef.scala:179)
+[info]   at akka.testkit.TestKitBase$class.expectMsg_internal(TestKit.scala:327)
+[info]   at akka.testkit.TestKitBase$class.expectMsg(TestKit.scala:314)
+[info]   at akka.testkit.TestKit.expectMsg(TestKit.scala:707)
+[info]   at akka.persistence.journal.leveldb.SharedLeveldbJournalSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SharedLeveldbJournalSpec.scala:89)
+[info]   at akka.persistence.journal.leveldb.SharedLeveldbJournalSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(SharedLeveldbJournalSpec.scala:75)
+[info]   at akka.persistence.journal.leveldb.SharedLeveldbJournalSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(SharedLeveldbJournalSpec.scala:75)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+&lt;/code&gt;&lt;/pre&gt;</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">79566683</id>
+  <importance type="integer">-542</importance>
+  <importance-float type="float">-542.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>ajCEdmAQWr3Bdeab7jnrAJ,dP16y-gWmr37KceJe5aVNr</notification-list>
+  <number type="integer">3898</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ajCEdmAQWr3Bdeab7jnrAJ</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>4</status>
+  <status-name>Test</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>FAILED: SharedLeveldbJournalSpec</summary>
+  <updated-at type="datetime">2014-03-31T13:07:11+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dP16y-gWmr37KceJe5aVNr</id><login>krasserm</login><login_name warning="deprecated">krasserm</login_name><name>krasserm</name></assigned-to>
+  <reporter><id>ajCEdmAQWr3Bdeab7jnrAJ</id><login>drewhk</login><login_name warning="deprecated">drewhk</login_name><name>drewhk</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">persistence</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">persistence</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>cgRGBCFpKr44lcacwqjQYw</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-08T05:10:40+08:00</created-on>
+  <description>Add support to configure the supervisor strategy of a router to the Akka config. 
+
+Google group thread:
+https://groups.google.com/forum/#!topic/akka-user/30hNXRBnQRo</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">80348533</id>
+  <importance type="integer">-549</importance>
+  <importance-float type="float">-549.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>bFuaCQRy8r4jBNeJe5cbCb,cgRGBCFpKr44lcacwqjQYw</notification-list>
+  <number type="integer">3914</number>
+  <priority type="integer">3</priority>
+  <reporter-id>bFuaCQRy8r4jBNeJe5cbCb</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Add support to configure the supervisor strategy of a router to the Akka config</summary>
+  <updated-at type="datetime">2014-03-31T13:07:13+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>cgRGBCFpKr44lcacwqjQYw</id><login>drexin</login><login_name warning="deprecated">drexin</login_name><name>drexin</name></assigned-to>
+  <reporter><id>bFuaCQRy8r4jBNeJe5cbCb</id><login>tleese22</login><login_name warning="deprecated">tleese22</login_name><name>tleese22</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>cRxJCoNtmr44omacwqjQXA</assigned-to-id>
+  <completed-date type="datetime">2014-03-17T17:20:25+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-11T00:28:58+08:00</created-on>
+  <description>Upgrade org.iq80.leveldb to the latest version 0.7 because the version 0.5 does not play nicely in a project using Guava &gt;= 16. 
+
+```
+[ERROR] Uncaught error from thread [omnibus-akka.persistence.dispatchers.default-plugin-dispatcher-9] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled for ActorSystem[omnibus]
+[ERROR] java.lang.NoSuchMethodError: com.google.common.io.Closeables.closeQuietly(Ljava/io/Closeable;)V
+[ERROR]  at org.iq80.leveldb.impl.MMapLogWriter.close(MMapLogWriter.java:83)
+[ERROR]  at org.iq80.leveldb.impl.VersionSet.initializeIfNeeded(VersionSet.java:111)
+[ERROR]  at org.iq80.leveldb.impl.VersionSet.&lt;init&gt;(VersionSet.java:91)
+[ERROR]  at org.iq80.leveldb.impl.DbImpl.&lt;init&gt;(DbImpl.java:167)
+[ERROR]  at org.iq80.leveldb.impl.Iq80DBFactory.open(Iq80DBFactory.java:59)
+[ERROR]  at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+[ERROR]  at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:19)
+[ERROR]  at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+[ERROR]  at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:19)
+[ERROR]  at akka.actor.ActorCell.create(ActorCell.scala:580)
+[ERROR]  at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+[ERROR]  at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+[ERROR]  at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+[ERROR]  at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+[ERROR]  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+[ERROR]  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+[ERROR]  at java.lang.Thread.run(Thread.java:724)
+```
+
+Leveldb 0.5 uses the API com.google.common.io.Closeables closeQuietly(Closeable closeable) that has been removed in Guava 16.
+
+Version 0.7 fixes this problem and uses Guava 16.0.1. </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">80480573</id>
+  <importance type="integer">-543</importance>
+  <importance-float type="float">-543.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>cRxJCoNtmr44omacwqjQXA</notification-list>
+  <number type="integer">3916</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cRxJCoNtmr44omacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>upgrade org.iq80.leveldb to 0.7</summary>
+  <updated-at type="datetime">2014-03-17T17:20:25+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>cRxJCoNtmr44omacwqjQXA</id><login>agourlay</login><login_name warning="deprecated">agourlay</login_name><name>agourlay</name></assigned-to>
+  <reporter><id>cRxJCoNtmr44omacwqjQXA</id><login>agourlay</login><login_name warning="deprecated">agourlay</login_name><name>agourlay</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">persistence</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">persistence</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>d3-V0kbESr4l5SeJe5cbLr</assigned-to-id>
+  <completed-date type="datetime">2014-03-14T21:21:25+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-12T17:21:41+08:00</created-on>
+  <description>This ticket covers trivial removals. Removals that requires some more work are tracked by separate tickets.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">80677653</id>
+  <importance type="integer">-538</importance>
+  <importance-float type="float">-538.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr</notification-list>
+  <number type="integer">3920</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Remove deprecated features</summary>
+  <updated-at type="datetime">2014-03-14T21:21:25+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dIWZSyoser4ys0acwqjQXA</assigned-to-id>
+  <completed-date type="datetime">2014-04-08T15:47:11+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-15T18:03:54+08:00</created-on>
+  <description>The currently used version is 2.10, which is no longer actively developed.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">80989323</id>
+  <importance type="integer">-560</importance>
+  <importance-float type="float">-560.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>b3bGMs4nur3RAbeJe5aVNr,dIWZSyoser4ys0acwqjQXA</notification-list>
+  <number type="integer">3929</number>
+  <priority type="integer">3</priority>
+  <reporter-id>b3bGMs4nur3RAbeJe5aVNr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Upgrade Apache Camel version to 2.12.x</summary>
+  <updated-at type="datetime">2014-04-08T15:47:11+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dIWZSyoser4ys0acwqjQXA</id><login>RayRoestenburg</login><login_name warning="deprecated">RayRoestenburg</login_name><name>Raymond Roestenburg</name></assigned-to>
+  <reporter><id>b3bGMs4nur3RAbeJe5aVNr</id><login>hseeberger</login><login_name warning="deprecated">hseeberger</login_name><name>Heiko Seeberger</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">camel</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">camel</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dYbsaSchCr4k9jeJe5cbCb</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-17T17:11:18+08:00</created-on>
+  <description>https://jenkins.akka.io:8498/job/akka-multi-node-nightly/930/consoleFull</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">81083003</id>
+  <importance type="integer">-546</importance>
+  <importance-float type="float">-546.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,dYbsaSchCr4k9jeJe5cbCb</notification-list>
+  <number type="integer">3931</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>FAILED: SurviveNetworkInstabilitySpec</summary>
+  <updated-at type="datetime">2014-03-31T13:07:12+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dYbsaSchCr4k9jeJe5cbCb</id><login>rkuhn</login><login_name warning="deprecated">rkuhn</login_name><name>rkuhn</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>ar3pRos-Cr4Bo4acwqjQYw</assigned-to-id>
+  <completed-date type="datetime">2014-03-19T19:07:10+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-18T22:55:47+08:00</created-on>
+  <description>https://jenkins.akka.io:8498/job/akka-multi-node/716/consoleFull</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">81248873</id>
+  <importance type="integer">-546</importance>
+  <importance-float type="float">-546.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,ar3pRos-Cr4Bo4acwqjQYw</notification-list>
+  <number type="integer">3936</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>FAILED: compilation error in akka-sample-supervision-java-lambda</summary>
+  <updated-at type="datetime">2014-03-19T19:07:10+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">samples</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">samples</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dmQO0GF_0r44o2acwqjQWU</assigned-to-id>
+  <completed-date type="datetime">2014-04-03T15:57:17+08:00</completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-24T10:31:32+08:00</created-on>
+  <description>Snapshot versions are not published to maven central, thus snapshot repo should be specified in poms</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">81712443</id>
+  <importance type="integer">-555</importance>
+  <importance-float type="float">-555.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>dmQO0GF_0r44o2acwqjQWU</notification-list>
+  <number type="integer">3954</number>
+  <priority type="integer">3</priority>
+  <reporter-id>dmQO0GF_0r44o2acwqjQWU</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>3</status>
+  <status-name>Fixed</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>snapshot versions in maven poms need a snapshot repository </summary>
+  <updated-at type="datetime">2014-04-03T15:57:17+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dmQO0GF_0r44o2acwqjQWU</id><login>jozic</login><login_name warning="deprecated">jozic</login_name><name>Eugene Platonov</name></assigned-to>
+  <reporter><id>dmQO0GF_0r44o2acwqjQWU</id><login>jozic</login><login_name warning="deprecated">jozic</login_name><name>Eugene Platonov</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">samples</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">samples</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>d3-V0kbESr4l5SeJe5cbLr</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-24T23:04:00+08:00</created-on>
+  <description>Reported here: https://groups.google.com/d/msg/akka-user/5vYs4jKMaQU/Unjo3TaFG8QJ
+with reproducible sample.
+
+Major time is consumed in EndpointWriter stashing and unstashing messages. That happens when the transport can't write.
+I think it goes into an very inefficient spin of unstashing all messages, and quickly discover that it can't write and then everything is stashed again, and so on...
+
+We had something similar in EventsourcedProcessor, and then Martin introduced unstash() to avoid unstashAll().
+
+I tried to increase backoff time and send buffer size, but could not see a big difference.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">81771343</id>
+  <importance type="integer">-557</importance>
+  <importance-float type="float">-557.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,duTvt6uIer45pcacwqjQXA,aQTBww_5Wr4lwYacwqjQWU</notification-list>
+  <number type="integer">3960</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Optimize EndpointWriter unstashing</summary>
+  <updated-at type="datetime">2014-04-03T17:32:46+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>ar3pRos-Cr4Bo4acwqjQYw</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-31T19:48:23+08:00</created-on>
+  <description>https://jenkins.akka.io:8498/job/akka-multi-node-nightly/958/consoleFull
+https://jenkins.akka.io:8498/job/akka-multi-node-nightly/956/consoleFull
+&lt;pre&gt;&lt;code&gt;
+[info] RemoteDeathWatchSpec:
+Coroner Thread Count starts at 62 in akka.remote.RemoteDeathWatchSpec
+[info] The Death Watch
+[info] - must notify with one Terminated message when an Actor is stopped (86 milliseconds)
+[info] - must notify with one Terminated message when an Actor is already dead (45 milliseconds)
+[info] - must notify with all monitors with one Terminated message when an Actor is stopped (89 milliseconds)
+[info] - must notify with _current_ monitors with one Terminated message when an Actor is stopped (88 milliseconds)
+[info] - must notify with a Terminated message once when an Actor is stopped but not when restarted (54 milliseconds)
+[info] - must fail a monitor which does not handle Terminated() (59 milliseconds)
+[info] - must be able to watch a child with the same name after the old died (9 milliseconds)
+[info] - must only notify when watching (3 seconds, 4 milliseconds)
+[info] - must discard Terminated when unwatched between sysmsg and processing (25 milliseconds)
+[WARN] [03/31/2014 05:39:40.740] [RemoteDeathWatchSpec-akka.remote.default-remote-dispatcher-6] [akka.tcp://RemoteDeathWatchSpec@localhost:33829/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FOtherSystem%40localhost%3A42647-1] Association with remote system [akka.tcp://OtherSystem@localhost:42647] has failed, address is now gated for [1000] ms. Reason is: [Association failed with [akka.tcp://OtherSystem@localhost:42647]].
+[WARN] [03/31/2014 05:39:41.206] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-5] [akka://RemoteDeathWatchSpec/deadLetters] received dead letter from Actor[akka://RemoteDeathWatchSpec/system/remote-watcher#1158516880]: Heartbeat
+[WARN] [03/31/2014 05:39:41.760] [RemoteDeathWatchSpec-akka.remote.default-remote-dispatcher-7] [akka.tcp://RemoteDeathWatchSpec@localhost:33829/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FOtherSystem%40localhost%3A42647-1] Association with remote system [akka.tcp://OtherSystem@localhost:42647] has failed, address is now gated for [1000] ms. Reason is: [Association failed with [akka.tcp://OtherSystem@localhost:42647]].
+[WARN] [03/31/2014 05:39:42.206] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-3] [akka://RemoteDeathWatchSpec/deadLetters] received dead letter from Actor[akka://RemoteDeathWatchSpec/system/remote-watcher#1158516880]: Heartbeat
+[WARN] [03/31/2014 05:39:42.779] [RemoteDeathWatchSpec-akka.remote.default-remote-dispatcher-7] [akka.tcp://RemoteDeathWatchSpec@localhost:33829/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FOtherSystem%40localhost%3A42647-1] Association with remote system [akka.tcp://OtherSystem@localhost:42647] has failed, address is now gated for [1000] ms. Reason is: [Association failed with [akka.tcp://OtherSystem@localhost:42647]].
+[WARN] [03/31/2014 05:39:43.206] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-3] [akka://RemoteDeathWatchSpec/deadLetters] received dead letter from Actor[akka://RemoteDeathWatchSpec/system/remote-watcher#1158516880]: Heartbeat
+[WARN] [03/31/2014 05:39:43.796] [RemoteDeathWatchSpec-akka.remote.default-remote-dispatcher-7] [Remoting] Tried to associate with unreachable remote address [akka.tcp://OtherSystem@localhost:42647]. Address is now gated for 1000 ms, all messages to this address will be delivered to dead letters. Reason: Delivery of system messages timed out and they were dropped.
+[WARN] [03/31/2014 05:39:43.798] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-3] [akka://RemoteDeathWatchSpec/user/$d] received dead letter from Actor[akka://RemoteDeathWatchSpec/deadLetters]: AddressTerminated(akka.tcp://OtherSystem@localhost:42647)
+[WARN] [03/31/2014 05:39:43.798] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-3] [akka://RemoteDeathWatchSpec/user/$c] received dead letter from Actor[akka://RemoteDeathWatchSpec/deadLetters]: AddressTerminated(akka.tcp://OtherSystem@localhost:42647)
+[WARN] [03/31/2014 05:39:43.799] [RemoteDeathWatchSpec-akka.actor.default-dispatcher-3] [akka://RemoteDeathWatchSpec/user/$a] received dead letter from Actor[akka://RemoteDeathWatchSpec/deadLetters]: AddressTerminated(akka.tcp://OtherSystem@localhost:42647)
+[info] - receive Terminated when system of de-serialized ActorRef is not running (8 seconds, 89 milliseconds)
+*** buffer overflow detected ***: /usr/lib/jvm/java-6-openjdk-amd64/bin/java terminated
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(__fortify_fail+0x37)[0x7f945c3e9f47]
+/lib/x86_64-linux-gnu/libc.so.6(+0x109e40)[0x7f945c3e8e40]
+/lib/x86_64-linux-gnu/libc.so.6(+0x10aefe)[0x7f945c3e9efe]
+/lib/x86_64-linux-gnu/libnss_ldap.so.2(+0x9226)[0x7f93acc80226]
+/lib/x86_64-linux-gnu/libnss_ldap.so.2(+0x971d)[0x7f93acc8071d]
+/lib/x86_64-linux-gnu/libnss_ldap.so.2(_nss_ldap_gethostbyname2_r+0x10a)[0x7f93acc7acaa]
+/lib/x86_64-linux-gnu/libc.so.6(+0xcc176)[0x7f945c3ab176]
+/lib/x86_64-linux-gnu/libc.so.6(getaddrinfo+0xdc)[0x7f945c3ae1dc]
+/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/libnet.so(Java_java_net_Inet6AddressImpl_lookupAllHostAddr+0xdd)[0x7f940e82da2d]
+[0x7f944c011550]
+&lt;/code&gt;&lt;/pre&gt;</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">82436323</id>
+  <importance type="integer">-559</importance>
+  <importance-float type="float">-559.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>ar3pRos-Cr4Bo4acwqjQYw</notification-list>
+  <number type="integer">3969</number>
+  <priority type="integer">3</priority>
+  <reporter-id>ar3pRos-Cr4Bo4acwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>FAILED: RemoteDeathWatchSpec (problem with FDs?)</summary>
+  <updated-at type="datetime">2014-04-09T18:33:36+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></assigned-to>
+  <reporter><id>ar3pRos-Cr4Bo4acwqjQYw</id><login>bjorn.antonsson@typesafe.com</login><login_name warning="deprecated">bjorn.antonsson@typesafe.com</login_name><name>bjorn.antonsson@typesafe.com</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>b3fqaWRW4r47BdacwqjQYw</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-01T18:27:59+08:00</created-on>
+  <description>Consumer group is a feature that is described in Kafka's [[url:http://kafka.apache.org/documentation.html#intro_consumers|page]]
+
+We discussed this at [[url:https://groups.google.com/forum/#!topic/akka-dev/SEnOzv6ZazI|akka-dev group]] </description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">82547693</id>
+  <importance type="integer">-552</importance>
+  <importance-float type="float">-552.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>b3fqaWRW4r47BdacwqjQYw</notification-list>
+  <number type="integer">3972</number>
+  <priority type="integer">3</priority>
+  <reporter-id>b3fqaWRW4r47BdacwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Make DistributedPubSubMediator support consumer group pattern</summary>
+  <updated-at type="datetime">2014-04-01T18:51:14+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>b3fqaWRW4r47BdacwqjQYw</id><login>cowboy129</login><login_name warning="deprecated">cowboy129</login_name><name>cowboy129</name></assigned-to>
+  <reporter><id>b3fqaWRW4r47BdacwqjQYw</id><login>cowboy129</login><login_name warning="deprecated">cowboy129</login_name><name>cowboy129</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">contrib</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">contrib</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>d3-V0kbESr4l5SeJe5cbLr</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-08T17:57:09+08:00</created-on>
+  <description>https://jenkins.akka.io:8498/job/pr-validator-per-commit/2169/consoleFull
+
+&lt;pre&gt;&lt;code&gt;
+[info] FutureSpec:
+Coroner Thread Count starts at 21 in akka.dispatch.FutureSpec
+[info] A Promise
+[info]   when never completed
+[info]   - must not be completed (1 millisecond)
+[info]   - must not contain a value (1 millisecond)
+[info]   - must return supplied value on timeout *** FAILED *** (9 milliseconds)
+[info]     &quot;[br0ken]&quot; was not equal to &quot;[last]&quot; (FutureSpec.scala:77)
+[info]     org.scalatest.exceptions.TestFailedException:
+[info]     at org.scalatest.MatchersHelper$.newTestFailedException(MatchersHelper.scala:160)
+[info]     at org.scalatest.Matchers$ShouldMethodHelper$.shouldMatcher(Matchers.scala:5980)
+[info]     at org.scalatest.Matchers$AnyShouldWrapper.should(Matchers.scala:6014)
+&lt;/code&gt;&lt;/pre&gt;</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">83239843</id>
+  <importance type="integer">-562</importance>
+  <importance-float type="float">-562.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>d3-V0kbESr4l5SeJe5cbLr,awyXO0VPqr44o2acwqjQXA</notification-list>
+  <number type="integer">3984</number>
+  <priority type="integer">3</priority>
+  <reporter-id>d3-V0kbESr4l5SeJe5cbLr</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>4</status>
+  <status-name>Test</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>FAILED: FutureSpec</summary>
+  <updated-at type="datetime">2014-04-11T20:13:53+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></assigned-to>
+  <reporter><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">actor</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">actor</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>dVabCUatCr4AZLacwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-08T20:58:57+08:00</created-on>
+  <description>Bsically, if we have a few seed nodes, a partition happens so that a singleton is running on a &quot;detached cluster&quot;, and nodes &quot;come back&quot; by forming a new cluster - they may decide to run the singleton - because they don't  know about the node that's running the singleton, nor is any of the seed nodes in contact with it.
+
+This task is about introducing patterns to remove this problem. One pattern is using roles to delay starting the singleton until more seed nodes know the nodes that have joined. Another one is manualy joining nodes and using an external discovery service (zookeeper for example) to find nodes. 
+
+Note: We currently do not do autodiscovery in akka, which would also help to kill this problem.
+
+Discussed in detail here: https://groups.google.com/forum/#!topic/akka-user/ns7DPHGYbIk</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">83256683</id>
+  <importance type="integer">-560</importance>
+  <importance-float type="float">-560.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>awyXO0VPqr44o2acwqjQXA,dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3986</number>
+  <priority type="integer">3</priority>
+  <reporter-id>awyXO0VPqr44o2acwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>ClusterSingleton may appear duplicated when seed nodes die</summary>
+  <updated-at type="datetime">2014-04-10T19:01:40+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>dVabCUatCr4AZLacwqjQXA</id><login>ktosopl</login><login_name warning="deprecated">ktosopl</login_name><name>Konrad Malawski</name><email>kmalawski@project13.pl</email></assigned-to>
+  <reporter><id>awyXO0VPqr44o2acwqjQXA</id><login>ktoso</login><login_name warning="deprecated">ktoso</login_name><name>Konrad Malawski</name><email>ktoso@typesafe.com</email><organization>Typesafe</organization></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">cluster</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">cluster</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>d3-V0kbESr4l5SeJe5cbLr</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-09T17:07:37+08:00</created-on>
+  <description>I am using the UntypedProcessor to store a state of an Actor. My program calls the saveSnapshot method whenever one of child actors finishes. As the SnapshotStore stores a snapshot asynchronously, calling the saveSnapshot method while it is saving a snapshot corrupts the SnapshotStore that it keeps failing on saving a snapshot. Anyone has an idea of saving a snapshot in a better way? It would be great if this method can be done either synchronous or asynchronous by giving an extra parameter.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">83352723</id>
+  <importance type="integer">-563</importance>
+  <importance-float type="float">-563.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>axQGw-V8yr46vWacwqEsg9,dVabCUatCr4AZLacwqjQXA,d3-V0kbESr4l5SeJe5cbLr</notification-list>
+  <number type="integer">3988</number>
+  <priority type="integer">3</priority>
+  <reporter-id>axQGw-V8yr46vWacwqEsg9</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Saving a snapshot many times for a short time causes SaveSnapshotFailure</summary>
+  <updated-at type="datetime">2014-04-11T21:31:08+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">3.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>d3-V0kbESr4l5SeJe5cbLr</id><login>patriknw</login><login_name warning="deprecated">patriknw</login_name><name>Patrik Nordwall</name></assigned-to>
+  <reporter><id>axQGw-V8yr46vWacwqEsg9</id><login>njovy</login><login_name warning="deprecated">njovy</login_name><name>njovy</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">persistence</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">persistence</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>c0TmVkWmGr44OnacwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-11T17:58:17+08:00</created-on>
+  <description>DistributedPubSubMediator does not send the UnsubscribeAck to the correct sender despite that the documentation states so.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">83581243</id>
+  <importance type="integer">-561</importance>
+  <importance-float type="float">-561.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">3901823</milestone-id>
+  <notification-list>c0TmVkWmGr44OnacwqjQXA</notification-list>
+  <number type="integer">3993</number>
+  <priority type="integer">3</priority>
+  <reporter-id>c0TmVkWmGr44OnacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Send UnsubscribeAck in DistributedPubSubMediator to the right sender</summary>
+  <updated-at type="datetime">2014-04-11T19:28:06+08:00</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>c0TmVkWmGr44OnacwqjQXA</id><login>AhmedSolimanFarghal</login><login_name warning="deprecated">AhmedSolimanFarghal</login_name><name>AhmedSolimanFarghal</name></assigned-to>
+  <reporter><id>c0TmVkWmGr44OnacwqjQXA</id><login>AhmedSolimanFarghal</login><login_name warning="deprecated">AhmedSolimanFarghal</login_name><name>AhmedSolimanFarghal</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">contrib</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">contrib</CustomField>
+</CustomFields>
+</ticket>
+</tickets>

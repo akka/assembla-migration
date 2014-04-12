@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-03-31T08:55:54Z</created-on>
+  <description>In clustered environment an Actor named ServiceManager creates router actor that creates in turn Workers on remote nodes.
+
+At the last line of preStart method in Worker a code like this:
+
+context.actorSelection(self.path.parent.parent).resolveOne {
+ (...)
+}
+
+will result in ActorNotFoundException.
+
+[monitor] akka.actor.ActorNotFound: Actor not found for: ActorSelection[Anchor(akka://application/), Path(/remote/akka.tcp/application@127.0.0.1:2558/user/ServiceManager)]
+
+when the URL is hardcoded: &quot;akka.tcp://application@127.0.0.1:2558/user/ServiceManager&quot; everything seems to work.
+</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">82419963</id>
+  <importance type="integer">-3</importance>
+  <importance-float type="float">-3.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">5820433</milestone-id>
+  <notification-list>aX1QGkUler47RcacwqjQXA</notification-list>
+  <number type="integer">3968</number>
+  <priority type="integer">3</priority>
+  <reporter-id>aX1QGkUler47RcacwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>Navigating Actor tree with &quot;parent&quot; in router child resolves to a wrong actorSelection</summary>
+  <updated-at type="datetime">2014-03-31T08:55:54Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>aX1QGkUler47RcacwqjQXA</id><login>almendar165110</login><login_name warning="deprecated">almendar165110</login_name><name>almendar165110</name></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">remoting</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">remoting</CustomField>
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id></assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-04T07:23:25Z</created-on>
+  <description>The problem occurs when we are running tests using Pax Exam and in the Native Container.
+
+The findTransitiveBundles method returns a list of bundles to use when loading classes specified in the configuration. This list is unordered and when bundle 0 is first in the list the classes will be loaded from the JVM classloader which then causes a ClassCastException. This causes the integration tests to be unstable. One simple solution is to sort this list in a descending order.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">82944193</id>
+  <importance type="integer">-5</importance>
+  <importance-float type="float">-5.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">5820433</milestone-id>
+  <notification-list>cr7JNoU8Cr47byacwqjQYw</notification-list>
+  <number type="integer">3977</number>
+  <priority type="integer">3</priority>
+  <reporter-id>cr7JNoU8Cr47byacwqjQYw</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>0</status>
+  <status-name>New</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>BundleDelegatingClassLoader randomly loads classes from wrong classloader when running Pax Exam tests in native container</summary>
+  <updated-at type="datetime">2014-04-04T07:23:25Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to></assigned-to>
+  <reporter><id>cr7JNoU8Cr47byacwqjQYw</id><login>mikael.svahn693959</login><login_name warning="deprecated">mikael.svahn693959</login_name><name>mikael.svahn693959</name></reporter>
+<custom-fields>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+</CustomFields>
+</ticket>
+<ticket>
+  <assigned-to-id>awyXO0VPqr44o2acwqjQXA</assigned-to-id>
+  <completed-date type="datetime"></completed-date>
+  <component-id type="integer"></component-id>
+  <created-on type="datetime">2014-04-07T20:41:07Z</created-on>
+  <description>It's not clear from the docs how eventStream inter-ops with clustering (well, it doesn't - but it's tempting to think it *might*) - (I also had to &quot;stop and think&quot; about that some time ago actually).
+
+Created as follow up of: https://groups.google.com/forum/#!topic/akka-user/GrOYjyD9uN8
+Docs to be updated: http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html#event-stream (and java version)
+
+One sentence mentioning that eventStream is local only (because there's a lot of stuff going on there) should be enough.</description>
+  <from-support type="integer">1</from-support>
+  <id type="integer">83188283</id>
+  <importance type="integer">-6</importance>
+  <importance-float type="float">-6.0</importance-float>
+  <is-story type="boolean">false</is-story>
+  <milestone-id type="integer">5820433</milestone-id>
+  <notification-list>awyXO0VPqr44o2acwqjQXA,dVabCUatCr4AZLacwqjQXA</notification-list>
+  <number type="integer">3982</number>
+  <priority type="integer">4</priority>
+  <reporter-id>awyXO0VPqr44o2acwqjQXA</reporter-id>
+  <space-id>ddEDvgVAKr3QrUeJe5aVNr</space-id>
+  <status type='integer'>1</status>
+  <status-name>Accepted</status-name>
+  <story-importance type="integer">0</story-importance>
+  <summary>DOC: Clarify that EventStream is local only</summary>
+  <updated-at type="datetime">2014-04-09T14:41:24Z</updated-at>
+  <working-hours type="float">0.0</working-hours>
+  <working-hour type="float" warning="deprecated">0.0</working-hour>
+  <estimate type="string">Small</estimate>
+  <total-estimate type="float">1.0</total-estimate>
+  <invested-hours type="float">0.0</invested-hours>
+  <assigned-to><id>awyXO0VPqr44o2acwqjQXA</id><login>ktoso</login><login_name warning="deprecated">ktoso</login_name><name>Konrad Malawski</name><email>ktoso@typesafe.com</email><organization>Typesafe</organization></assigned-to>
+  <reporter><id>awyXO0VPqr44o2acwqjQXA</id><login>ktoso</login><login_name warning="deprecated">ktoso</login_name><name>Konrad Malawski</name><email>ktoso@typesafe.com</email><organization>Typesafe</organization></reporter>
+<custom-fields>
+<custom-field type="List" name="Component" id="477643">docs</custom-field>
+</custom-fields>
+<CustomFields deprecated="use custom-fields">
+<CustomField type="List" name="Component" id="477643">docs</CustomField>
+</CustomFields>
+</ticket>
+</tickets>
