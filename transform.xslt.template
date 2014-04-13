@@ -7,8 +7,8 @@
 "number": </text><value-of select="number/text() + 10000"/><text>,
 "title": "</text><value-of select="summary/text()"/><text>",
 "body": "imported from https://www.assembla.com/spaces/akka/tickets/</text><value-of select="number/text()"/><text>\r\n\r\n</text><call-template name="quotes"><with-param name="text" select="description/text()"/></call-template><text>",
-"created_at" : "</text><value-of select="concat(substring-before(created-on/text(),'+'),'Z')"/><text>",
-"updated_at" : "</text><value-of select="concat(substring-before(updated-at/text(),'+'),'Z')"/><text>",
+"created_at" : "</text><call-template name="time"><with-param name="text" select="created-on/text()"/></call-template><text>",
+"updated_at" : "</text><call-template name="time"><with-param name="text" select="updated-at/text()"/></call-template><text>",
 "user" : "</text><value-of select="reporter/login/text()"/><text>",
 "assignee" : "</text><value-of select="assigned-to/text()"/><text>",
 "milestone" : @milestone@,
@@ -17,6 +17,13 @@
 }</text>
   </template>
   <template match="ticket"/>
+  <template name="time">
+    <param name="text"/>
+    <choose>
+      <when test="substring($text,string-length($text))='Z'"><value-of select="$text"/></when>
+      <otherwise><value-of select="concat(substring-before($text,'+'),'Z')"/></otherwise>
+    </choose>
+  </template>
   <template name="state">
     <param name="text"/>
     <choose>
