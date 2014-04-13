@@ -6,11 +6,11 @@
 {
 "number": </text><value-of select="number/text() + 10000"/><text>,
 "title": "</text><value-of select="summary/text()"/><text>",
-"body": "</text><call-template name="quotes"><with-param name="text" select="description/text()"/></call-template><text>",
+"body": "imported from https://www.assembla.com/spaces/akka/tickets/</text><value-of select="number/text()"/><text>\r\n\r\n</text><call-template name="quotes"><with-param name="text" select="description/text()"/></call-template><text>",
 "created_at" : "</text><value-of select="concat(substring-before(created-on/text(),'+'),'Z')"/><text>",
 "updated_at" : "</text><value-of select="concat(substring-before(updated-at/text(),'+'),'Z')"/><text>",
-"user" : "</text><value-of select="reporter/login/text()"/><text>"
-"assignee" : "</text><value-of select="assigned-to/text()"/><text>"
+"user" : "</text><value-of select="reporter/login/text()"/><text>",
+"assignee" : "</text><value-of select="assigned-to/text()"/><text>",
 "milestone" : @milestone@,
 "labels" : ["imported"],
 "state" : "</text><call-template name="state"><with-param name="text" select="status-name/text()"/></call-template><text>"
